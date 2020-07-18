@@ -1,0 +1,51 @@
+// Import common styles
+//@import "app-common";
+@import "~@nativescript/theme/core";
+@import "~@nativescript/theme/blue";
+// Place any CSS rules you want to apply only on Android here
+// Font icon class
+.fab {
+    font-family: "Font Awesome 5 Brands", "fa-brands-400";
+    font-weight: 400;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.far {
+    font-family: "Font Awesome 5 Free", "fa-regular-400";
+    font-weight: 400;
+}
+
+// Common page class
+.page__content {
+    &-icon,
+    &-placeholder {
+        color: rgba(230, 30, 30, 0.342);
+        font-size: 30;
+        vertical-align: center;
+        horizontal-align: center;
+    }
+
+    &-icon {
+        font-size: 92;
+        vertical-align: top;
+        margin-top: 20%;
+        color:  rgba(230, 30, 30, 0.342);
+    }
+}
+// Drawer navigation custom styles
+.nt-drawer__header-image {
+    color: rgba(255, 255, 255, 0.904);
+}
+.ActionBar{
+
+    background-color: rgb(255, 0, 13);
+    color:black;
+}
+.btn-danger {
+    background-color: const(error);
+    color: $white;
+  }
